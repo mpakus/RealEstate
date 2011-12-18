@@ -4,52 +4,38 @@
  * Хэлпер для работы с данными приходящими от пользователя
  * администрирования наполнения
  * 
- * @version 2.0
+ * @version 1.1
  * @author Ibragimov "MpaK" Renat <info@mrak7.com>
- * @copyright Copyright (c) 2009-2012, AOmega.ru
  */
 
 /**
-* Взять реверсивные параметры из post или model('request') запроса
-* по умолчанию фильтруется сразу же XSS и html теги
-*
-* @param string	$name		название параметра
-* @param bool	$clean		флаг очистки от XSS
-* @param bool	$clean_html	флаг очистки от html ntujd
-* @return string
-*/
-function rparam($name, $xss = TRUE, $clean_html = TRUE  ){
-    return CI()->request_mod->param( $name, $xss, $clean_html, TRUE );
-}
+ * Возвращает параметры присланные через адресную строку или $_POST
+ *
+ * @param  string $name
+ * @param bool	$clean		флаг очистки от XSS
+ * @param bool	$clean_html	флаг очистки от html кода
+ * @param bool	$rparam     флаг реверсивного параметра 100.html это html=>100
+ * @return mixed
+ */
+function param( $name, $xss = TRUE, $clean_html = TRUE  ){
 
-/**
-* Взять параметры из post или model('request') запроса
-* по умолчанию фильтруется сразу же XSS и html теги
-*
-* @param string	$name		название параметра
-* @param bool	$clean		флаг очистки от XSS
-* @param bool	$clean_html	флаг очистки от html ntujd
-* @return string
-*/
-function param($name, $xss = TRUE, $clean_html = TRUE  ){
-    return CI()->request_mod->param( $name, $xss, $clean_html );
-}
+	@list($name, $type) = explode('|', $name);
+	
+	if( is_array($name) ) return CI()->params( $name, $xss, $clean_html );
 
-/**
-* Взять реверсивне параметры c помощью функции param для целого массива
-* по умолчанию фильтруется сразу же XSS и html теги
-*
-* @param array	$params		массив названий нужных параметров
-* @param bool	$xss		флаг очистки от XSS
-* @param bool	$clean_html	флаг очистки от html ntujd
-* @return array
-*/
-function rparams( $params, $xss = TRUE, $clean_html = FALSE ){
-    if( !is_array($params) ){
-        return CI()->request_mod->param( $params, $xss, $clean_html, TRUE );
-    }else{
-        return CI()->request_mod->params( $params, $xss, $clean_html, TRUE );
-    }
+	$value = '';
+	$value = CI()->input->post( $name, $xss );
+	if( empty($value) AND isset($_GET[$name]) ) $value = CI()->security->xss_clean($_GET[$name]);
+
+	// если нужно экранировать html
+	if( !empty($value) AND $clean_html AND is_string($value) ) $value = htmlspecialchars( $value, ENT_QUOTES, 'UTF-8' );
+	if( empty($value) ) $value = '';
+	
+	if( isset($type) AND ($type == 'int') )		$value = intval($value);
+	if( isset($type) AND ($type == 'float') )	$value = floatval($value);
+	if( isset($type) AND ($value === 0) ) $value = NULL;
+
+	return $value;
 }
 
 /**
@@ -58,18 +44,20 @@ function rparams( $params, $xss = TRUE, $clean_html = FALSE ){
 *
 * @param array	$params		массив названий нужных параметров
 * @param bool	$xss		флаг очистки от XSS
-* @param bool	$clean_html	флаг очистки от html ntujd
+* @param bool	$clean_html	флаг очистки от html кода
+* @param bool	$rparam     флаг реверсивного параметра 100.html это html=>100
 * @return array
 */
-function params( $params, $xss = TRUE, $clean_html = FALSE ){
-    if( is_array($params) ){
-        return CI()->request_mod->params( $params, $xss, $clean_html );
-    }elseif( is_string($params) ){
-        return CI()->request_mod->params( $params, $xss, $clean_html );
-    }
-    return '';
+function params( $params='', $xss = TRUE, $clean_html = TRUE ){
+	$result = array();
+	if( !is_array($params) ) return param( $params, $xss, $clean_html );
+    
+	foreach($params as $name){
+		@list($name_set, $type)	= explode('|', $name);
+		$result[$name_set]		= param( $name, $xss, $clean_html );
+	}
+	return $result;
 }
-
 
 /**
 * Проверяет откуда нас вызвали из ajax или нет
@@ -78,24 +66,10 @@ function params( $params, $xss = TRUE, $clean_html = FALSE ){
 * @return	void
 */
 function is_ajax(){
-    return get_instance()->model('request')->ajax;
+	$xhttp = isset($_SERVER['HTTP_X_REQUESTED_WITH']) ? $_SERVER['HTTP_X_REQUESTED_WITH'] : '';
+	return ( $xhttp == 'XMLHttpRequest') ? TRUE : FALSE;
 }
 
-
-/**
-* Перевод строки из windows-1251 в кодировку utf8
-*
-* @param string $string
-* @return mixed
-*/
-function win2utf( $string = '' ){
-    if( empty($string) ) return $string;
-    return iconv( 'WINDOWS-1251', 'UTF-8', $string );
-}
-function utf2win( $string = '' ){
-    if( empty($string) ) return $string;
-    return iconv( 'UTF-8', 'WINDOWS-1251', $string );
-}
 
 /**
  * Разобьем CSV строку
@@ -110,4 +84,11 @@ function explode_csv( $line, $glue = ';' ){
         $row[$i] = trim( $row[$i], '"' );
     }
     return $row;
+}
+
+function debug( $var ){
+  ob_start();
+  var_dump($var);
+  $dump = ob_get_clean();
+  log_message( 'debug', $dump );
 }

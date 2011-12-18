@@ -45,7 +45,17 @@ class EstateController extends MY_Controller {
      * Get search results
      */
     public function ajax_search(){
+        // @todo: delete in production
+        error_reporting( E_ALL ^ E_NOTICE );
+        $this->load->model( array('estate') );
         $this->output->enable_profiler( FALSE );
+        
+        $params = params( array(
+            'coutry', 'city', 'type', 'rooms', 'stars', 'bar', 'pool', 'bath', 'shower',
+            'cctv', 'internet', 'tv', 'parking'
+        ));
+        $result = $this->estate->search( $params );
+        dump( $result );
     }
     
     /**

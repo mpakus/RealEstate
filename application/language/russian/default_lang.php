@@ -1,5 +1,6 @@
 <?php
 
+$lang['select_everything']    = '--- ВСЕ ---';
 $lang['select_all']           = '----- ЛЮБОЙ -----';
 $lang['form_select_rooms']    = 'Комнат:';
 $lang['form_select_stars']    = 'Звёзд:';

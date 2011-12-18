@@ -51,11 +51,19 @@ class Estate extends MY_Controller{
     }
     
     public function stars_list( $max=5 ){
-        return range( 1, $max );
+        $list = range( 1, $max );
+        array_unshift( $list, lang('select_everything') );  
+        return $list;
     }
     
     public function rooms_list( $max=6 ){
-        return range( 1, $max );
+        $list = range( 1, $max );
+        array_unshift( $list, lang('select_everything') );  
+        return $list;
+    }
+    
+    public function search( $params=array() ){
+        
     }
     
 }

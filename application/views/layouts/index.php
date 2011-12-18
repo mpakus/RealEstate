@@ -53,7 +53,7 @@
 <div class="topbar">
   <div class="fill">
     <div class="container">
-      <a class="brand" href="/">Realestate.Мир</a>
+      <a class="brand" href="/">Realestate.Поиск</a>
       <!--ul class="nav">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
