@@ -4,7 +4,7 @@
  * Помощник со вспомогательными функциями
  *
  * @version 1.0
- * @author Ibragimov "MpaK" Renat <renat@pureandco.com>
+ * @author Ibragimov "MpaK" Renat <info@mrak7.com>
  */
 
 

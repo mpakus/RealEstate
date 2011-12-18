@@ -17,8 +17,7 @@ class Estate extends MY_Model{
     
     
     public function __construct(){
-        parent::__construct();
-        //$this->type = get_instance()->type;
+        parent::__construct();        
     }
     
     /**
@@ -139,6 +138,7 @@ class Estate extends MY_Model{
             $object = $this->find( $id, 1 );  // select * from $this->table limit 1
             $object['city']    = $this->city->find( (int)$object['city_id'], 1 );
             $object['country'] = $this->country->find( (int)$object['city']['country_id'], 1 );
+            // all photos for this object
             $object['photos']  = $this->photo->where( 'estate_id', (int)$object['id'] )->find();
             
             $this->cache->save( $key, $object, QCACHE_TIME );

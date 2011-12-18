@@ -18,7 +18,6 @@ class EstateController extends MY_Controller {
     public function __construct(){
         parent::__construct();
         //$this->output->enable_profiler( TRUE );
-        #$this->type->type = $this->type;
     }
     
     /**

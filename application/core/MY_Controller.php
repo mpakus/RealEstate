@@ -1,5 +1,5 @@
 <?php
-        define( 'QCACHE_TIME', 0 );
+define( 'QCACHE_TIME', 600 );   // 10 min.
 
 /**
  * Our front-end controller
