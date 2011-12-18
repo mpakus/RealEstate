@@ -121,9 +121,9 @@ class Template{
      */
     public function append( $name, $value ){
         if ( ! is_array($value) )
-            $this->_data[$name] .= $value;
+            @$this->_data[$name] .= $value;
         else
-            $this->_data[$name][] = $value;
+            @$this->_data[$name][] = $value;
 		return $this;
     }
 
@@ -134,7 +134,7 @@ class Template{
      * @param string $value
      */
     public function before( $name, $value ){
-        if ( !is_array($values) ) $this->_data[$name] = $value.$this->data[$name];
+        if ( !is_array($values) ) @$this->_data[$name] = $value.$this->data[$name];
     }
 
     /**

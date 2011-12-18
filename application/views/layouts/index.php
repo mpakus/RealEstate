@@ -2,62 +2,81 @@
 <html lang="ru">
 <head>
 	<meta charset="utf-8" />
-	<title>Realestate</title>
-	<style type="text/css">
+	<title>Realestate - Поиск недвижимости по всему миру</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/bootstrap/bootstrap.min.css">
+    <style type="text/css">
+      /* Override some defaults */
+      html, body {
+        background-color: #eee;
+      }
+      body {
+        padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
+      }
+      .container > footer p {
+        text-align: center; /* center align it with the container */
+      }
+      .container {
+        width: 940px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
+      }
 
-	::selection{ background-color: #E13300; color: white; }
-	::moz-selection{ background-color: #E13300; color: white; }
-	::webkit-selection{ background-color: #E13300; color: white; }
+      /* The white background content wrapper */
+      .container > .content {
+        background-color: #fff;
+        padding: 20px;
+        margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+        -webkit-border-radius: 0 0 6px 6px;
+           -moz-border-radius: 0 0 6px 6px;
+                border-radius: 0 0 6px 6px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+                box-shadow: 0 1px 2px rgba(0,0,0,.15);
+      }
 
-	body {
-		background-color: #fff;
-		margin: 40px;
-		font: 13px/20px normal Helvetica, Arial, sans-serif;
-		color: #4F5155;
-	}
+      /* Styles you shouldn't keep as they are for displaying this base example only */
+      .content .spancontent{
+        min-height: 500px;
+        width: 100%;
+      }
 
-	a {
-		color: #003399;
-		background-color: transparent;
-		font-weight: normal;
-	}
-
-	h1 {
-		color: #444;
-		background-color: transparent;
-		border-bottom: 1px solid #D0D0D0;
-		font-size: 19px;
-		font-weight: normal;
-		margin: 0 0 14px 0;
-		padding: 14px 15px 10px 15px;
-	}
-
-
-	#content{
-		margin: 0 15px 0 15px;
-	}
-	
-	p.footer{
-		text-align: right;
-		font-size: 11px;
-		border-top: 1px solid #D0D0D0;
-		line-height: 32px;
-		padding: 0 10px 0 10px;
-		margin: 20px 0 0 0;
-	}
-
+      .topbar .btn {
+        border: 0;
+      }
+      .cb{ clear: both; overflow: hidden; }
+      div3{ border: 1px solid red; }
 	</style>
+    <?= $js ?>
+            
 </head>
 <body>
 
-<div id="container">
-	<h1>Realestate:</h1>
+<div class="topbar">
+  <div class="fill">
+    <div class="container">
+      <a class="brand" href="/">Realestate.Мир</a>
+      <!--ul class="nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul-->
+    </div>
+  </div>
+</div>
 
-	<div id="content">
-        <?php echo $content; ?>
-	</div>
+<div class="container">
 
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds | Memory usage: {memory_usage}</p>
+  <div class="content">
+    <div class="row">
+      <div class="span16">
+        <?php echo $content; ?>              
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Page rendered in <strong>{elapsed_time}</strong> seconds | Memory usage: {memory_usage}</p>
+  </footer>
+
 </div>
 
 </body>

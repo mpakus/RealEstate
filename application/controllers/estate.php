@@ -7,7 +7,7 @@
  * @author Ibragimov "MpaK" Renat <info@mrak7.com>
  * @copyright Copyright (c) 2012, AOmega, http://aomega.ru
  */
-class Estate extends MY_Controller {
+class EstateController extends MY_Controller {
     /**
      * Views directory
      * 
@@ -17,14 +17,50 @@ class Estate extends MY_Controller {
     
     public function __construct(){
         parent::__construct();
+        $this->output->enable_profiler( TRUE );
+        #$this->type->type = $this->type;
     }
     
+    /**
+     * Show search form on the main page
+     */
     public function index(){
+        $this->load->model( array('estate','type', 'country', 'city') );
+        // list of object types
+        $this->template->set( 'types', $this->estate->types_list() );
+        // list of countries
+        $this->template->set( 'countries', $this->estate->countries_list() );
+        // list of rooms
+        $this->template->set( 'rooms', $this->estate->rooms_list() );
+        // list of stars
+        $this->template->set( 'stars', $this->estate->stars_list() );
+        // add JS script to layout
+        $this->template->add_js( '/assets/js/search.js' );
+                
+        // render template and show layout
         $this->template->render_to( 'content', $this->view.'index' )->show();
     }
     
+    /**
+     * Get search results
+     */
+    public function ajax_search(){
+        $this->output->enable_profiler( FALSE );
+    }
     
-    public function _ajax(){
+    /**
+     * Get cities results for country
+     */
+    public function ajax_cities(){
+        $country_id = param( 'country' );
+    }
+    
+    /**
+     * Show object's full information
+     * 
+     * @param integer $id 
+     */
+    public function object( $id ){
         
     }
 
