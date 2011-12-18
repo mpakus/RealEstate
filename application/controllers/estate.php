@@ -36,7 +36,7 @@ class EstateController extends MY_Controller {
         $this->template->set( 'stars', $this->estate->stars_list() );
         // add JS script to layout
         $this->template->add_js( '/assets/js/search.js' );
-        $this->template->add_js( '/assets/js/waypoints.min.js' );
+        $this->template->add_js( '/assets/js/scrollpagination.js' );
                 
         // render template and show layout
         $this->template->render_to( 'content', $this->view.'index' )->show();

@@ -2769,3 +2769,496 @@ ERROR - 2011-12-18 21:12:45 --> Severity: Notice  --> Undefined index: page D:\w
 DEBUG - 2011-12-18 21:12:45 --> File loaded: ../application/views/estate/ajax_search.php
 DEBUG - 2011-12-18 21:12:45 --> Final output sent to browser
 DEBUG - 2011-12-18 21:12:45 --> Total execution time: 0.6640
+DEBUG - 2011-12-18 21:21:19 --> Config Class Initialized
+DEBUG - 2011-12-18 21:21:19 --> Hooks Class Initialized
+DEBUG - 2011-12-18 21:21:19 --> Utf8 Class Initialized
+DEBUG - 2011-12-18 21:21:19 --> UTF-8 Support Enabled
+DEBUG - 2011-12-18 21:21:19 --> URI Class Initialized
+DEBUG - 2011-12-18 21:21:19 --> Router Class Initialized
+DEBUG - 2011-12-18 21:21:19 --> No URI present. Default controller set.
+DEBUG - 2011-12-18 21:21:19 --> Output Class Initialized
+DEBUG - 2011-12-18 21:21:19 --> Security Class Initialized
+DEBUG - 2011-12-18 21:21:20 --> Input Class Initialized
+DEBUG - 2011-12-18 21:21:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2011-12-18 21:21:20 --> Language Class Initialized
+DEBUG - 2011-12-18 21:21:20 --> Loader Class Initialized
+DEBUG - 2011-12-18 21:21:20 --> Helper loaded: language_helper
+DEBUG - 2011-12-18 21:21:20 --> Helper loaded: inflector_helper
+DEBUG - 2011-12-18 21:21:20 --> Helper loaded: dump_helper
+DEBUG - 2011-12-18 21:21:20 --> Helper loaded: input_helper
+DEBUG - 2011-12-18 21:21:20 --> Helper loaded: dc_helper
+DEBUG - 2011-12-18 21:21:20 --> Helper loaded: form_helper
+DEBUG - 2011-12-18 21:21:20 --> Helper loaded: url_helper
+DEBUG - 2011-12-18 21:21:20 --> Database Driver Class Initialized
+DEBUG - 2011-12-18 21:21:20 --> Config file loaded: ../application/config/template.php
+DEBUG - 2011-12-18 21:21:20 --> Controller Class Initialized
+DEBUG - 2011-12-18 21:21:20 --> Language file loaded: language/russian/default_lang.php
+DEBUG - 2011-12-18 21:21:20 --> Model Class Initialized
+DEBUG - 2011-12-18 21:21:20 --> Model Class Initialized
+DEBUG - 2011-12-18 21:21:20 --> Model Class Initialized
+DEBUG - 2011-12-18 21:21:20 --> Model Class Initialized
+DEBUG - 2011-12-18 21:21:20 --> Model Class Initialized
+DEBUG - 2011-12-18 21:21:20 --> Helper loaded: file_helper
+DEBUG - 2011-12-18 21:21:20 --> SELECT *
+FROM (`types` AS t)
+ORDER BY `type` ASC
+DEBUG - 2011-12-18 21:21:20 --> SELECT *
+FROM (`countries` AS t)
+ORDER BY `country` ASC
+ERROR - 2011-12-18 21:21:20 --> Severity: Notice  --> Undefined index: js D:\www\estate\application\libraries\Template.php 124
+DEBUG - 2011-12-18 21:21:20 --> File loaded: ../application/views/estate/index.php
+DEBUG - 2011-12-18 21:21:20 --> File loaded: ../application/views/layouts/index.php
+DEBUG - 2011-12-18 21:21:20 --> Final output sent to browser
+DEBUG - 2011-12-18 21:21:20 --> Total execution time: 0.4253
+DEBUG - 2011-12-18 21:21:24 --> Config Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> Config Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> Hooks Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> Utf8 Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> Hooks Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> UTF-8 Support Enabled
+DEBUG - 2011-12-18 21:21:24 --> Utf8 Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> URI Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> UTF-8 Support Enabled
+DEBUG - 2011-12-18 21:21:24 --> Router Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> URI Class Initialized
+ERROR - 2011-12-18 21:21:24 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2011-12-18 21:21:24 --> Router Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> No URI present. Default controller set.
+DEBUG - 2011-12-18 21:21:24 --> Output Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> Security Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> Input Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2011-12-18 21:21:24 --> Language Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> Loader Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> Helper loaded: language_helper
+DEBUG - 2011-12-18 21:21:24 --> Helper loaded: inflector_helper
+DEBUG - 2011-12-18 21:21:24 --> Helper loaded: dump_helper
+DEBUG - 2011-12-18 21:21:24 --> Helper loaded: input_helper
+DEBUG - 2011-12-18 21:21:24 --> Helper loaded: dc_helper
+DEBUG - 2011-12-18 21:21:24 --> Helper loaded: form_helper
+DEBUG - 2011-12-18 21:21:24 --> Helper loaded: url_helper
+DEBUG - 2011-12-18 21:21:24 --> Database Driver Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> Config file loaded: ../application/config/template.php
+DEBUG - 2011-12-18 21:21:24 --> Controller Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> Language file loaded: language/russian/default_lang.php
+DEBUG - 2011-12-18 21:21:24 --> Model Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> Model Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> Model Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> Model Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> Model Class Initialized
+DEBUG - 2011-12-18 21:21:24 --> Helper loaded: file_helper
+DEBUG - 2011-12-18 21:21:24 --> SELECT *
+FROM (`types` AS t)
+ORDER BY `type` ASC
+DEBUG - 2011-12-18 21:21:24 --> SELECT *
+FROM (`countries` AS t)
+ORDER BY `country` ASC
+ERROR - 2011-12-18 21:21:24 --> Severity: Notice  --> Undefined index: js D:\www\estate\application\libraries\Template.php 124
+DEBUG - 2011-12-18 21:21:24 --> File loaded: ../application/views/estate/index.php
+DEBUG - 2011-12-18 21:21:24 --> File loaded: ../application/views/layouts/index.php
+DEBUG - 2011-12-18 21:21:24 --> Final output sent to browser
+DEBUG - 2011-12-18 21:21:24 --> Total execution time: 0.5529
+DEBUG - 2011-12-18 21:21:29 --> Config Class Initialized
+DEBUG - 2011-12-18 21:21:29 --> Hooks Class Initialized
+DEBUG - 2011-12-18 21:21:29 --> Utf8 Class Initialized
+DEBUG - 2011-12-18 21:21:29 --> UTF-8 Support Enabled
+DEBUG - 2011-12-18 21:21:29 --> URI Class Initialized
+DEBUG - 2011-12-18 21:21:29 --> Router Class Initialized
+DEBUG - 2011-12-18 21:21:29 --> Output Class Initialized
+DEBUG - 2011-12-18 21:21:29 --> Security Class Initialized
+DEBUG - 2011-12-18 21:21:29 --> Input Class Initialized
+DEBUG - 2011-12-18 21:21:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2011-12-18 21:21:29 --> Language Class Initialized
+DEBUG - 2011-12-18 21:21:29 --> Loader Class Initialized
+DEBUG - 2011-12-18 21:21:29 --> Helper loaded: language_helper
+DEBUG - 2011-12-18 21:21:29 --> Helper loaded: inflector_helper
+DEBUG - 2011-12-18 21:21:29 --> Helper loaded: dump_helper
+DEBUG - 2011-12-18 21:21:29 --> Helper loaded: input_helper
+DEBUG - 2011-12-18 21:21:29 --> Helper loaded: dc_helper
+DEBUG - 2011-12-18 21:21:29 --> Helper loaded: form_helper
+DEBUG - 2011-12-18 21:21:29 --> Helper loaded: url_helper
+DEBUG - 2011-12-18 21:21:29 --> Database Driver Class Initialized
+DEBUG - 2011-12-18 21:21:29 --> Config file loaded: ../application/config/template.php
+DEBUG - 2011-12-18 21:21:29 --> Controller Class Initialized
+DEBUG - 2011-12-18 21:21:29 --> Language file loaded: language/russian/default_lang.php
+DEBUG - 2011-12-18 21:21:29 --> Model Class Initialized
+DEBUG - 2011-12-18 21:21:29 --> Model Class Initialized
+ERROR - 2011-12-18 21:21:29 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:21:29 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:21:29 --> XSS Filtering completed
+ERROR - 2011-12-18 21:21:29 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:21:29 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:21:29 --> XSS Filtering completed
+ERROR - 2011-12-18 21:21:29 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:21:29 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:21:29 --> XSS Filtering completed
+ERROR - 2011-12-18 21:21:29 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:21:29 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:21:29 --> XSS Filtering completed
+ERROR - 2011-12-18 21:21:29 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:21:29 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:21:29 --> XSS Filtering completed
+ERROR - 2011-12-18 21:21:29 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:21:29 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:21:30 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:21:30 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:21:30 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:21:30 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:21:30 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:21:30 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:21:30 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:21:30 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:21:30 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:21:30 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:21:30 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:21:30 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:21:30 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:21:30 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:21:30 --> SELECT *
+FROM (`estates` AS t)
+WHERE `rooms` =  '2'
+AND `stars` =  '4'
+LIMIT 30
+ERROR - 2011-12-18 21:21:30 --> Severity: Notice  --> Undefined index: page D:\www\estate\application\controllers\estate.php 66
+DEBUG - 2011-12-18 21:21:30 --> File loaded: ../application/views/estate/ajax_search.php
+DEBUG - 2011-12-18 21:21:30 --> Final output sent to browser
+DEBUG - 2011-12-18 21:21:30 --> Total execution time: 0.7197
+DEBUG - 2011-12-18 21:21:56 --> Config Class Initialized
+DEBUG - 2011-12-18 21:21:56 --> Hooks Class Initialized
+DEBUG - 2011-12-18 21:21:56 --> Utf8 Class Initialized
+DEBUG - 2011-12-18 21:21:56 --> UTF-8 Support Enabled
+DEBUG - 2011-12-18 21:21:56 --> URI Class Initialized
+DEBUG - 2011-12-18 21:21:56 --> Router Class Initialized
+DEBUG - 2011-12-18 21:21:56 --> No URI present. Default controller set.
+DEBUG - 2011-12-18 21:21:56 --> Output Class Initialized
+DEBUG - 2011-12-18 21:21:56 --> Security Class Initialized
+DEBUG - 2011-12-18 21:21:56 --> Input Class Initialized
+DEBUG - 2011-12-18 21:21:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2011-12-18 21:21:56 --> Language Class Initialized
+DEBUG - 2011-12-18 21:21:56 --> Loader Class Initialized
+DEBUG - 2011-12-18 21:21:56 --> Helper loaded: language_helper
+DEBUG - 2011-12-18 21:21:56 --> Helper loaded: inflector_helper
+DEBUG - 2011-12-18 21:21:56 --> Helper loaded: dump_helper
+DEBUG - 2011-12-18 21:21:56 --> Helper loaded: input_helper
+DEBUG - 2011-12-18 21:21:56 --> Helper loaded: dc_helper
+DEBUG - 2011-12-18 21:21:56 --> Helper loaded: form_helper
+DEBUG - 2011-12-18 21:21:56 --> Helper loaded: url_helper
+DEBUG - 2011-12-18 21:21:56 --> Database Driver Class Initialized
+DEBUG - 2011-12-18 21:21:56 --> Config file loaded: ../application/config/template.php
+DEBUG - 2011-12-18 21:21:56 --> Controller Class Initialized
+DEBUG - 2011-12-18 21:21:56 --> Language file loaded: language/russian/default_lang.php
+DEBUG - 2011-12-18 21:21:56 --> Model Class Initialized
+DEBUG - 2011-12-18 21:21:56 --> Model Class Initialized
+DEBUG - 2011-12-18 21:21:56 --> Model Class Initialized
+DEBUG - 2011-12-18 21:21:56 --> Model Class Initialized
+DEBUG - 2011-12-18 21:21:56 --> Model Class Initialized
+DEBUG - 2011-12-18 21:21:56 --> Helper loaded: file_helper
+DEBUG - 2011-12-18 21:21:56 --> SELECT *
+FROM (`types` AS t)
+ORDER BY `type` ASC
+DEBUG - 2011-12-18 21:21:56 --> SELECT *
+FROM (`countries` AS t)
+ORDER BY `country` ASC
+ERROR - 2011-12-18 21:21:56 --> Severity: Notice  --> Undefined index: js D:\www\estate\application\libraries\Template.php 124
+DEBUG - 2011-12-18 21:21:56 --> File loaded: ../application/views/estate/index.php
+DEBUG - 2011-12-18 21:21:56 --> File loaded: ../application/views/layouts/index.php
+DEBUG - 2011-12-18 21:21:56 --> Final output sent to browser
+DEBUG - 2011-12-18 21:21:57 --> Total execution time: 0.4681
+DEBUG - 2011-12-18 21:21:57 --> Config Class Initialized
+DEBUG - 2011-12-18 21:21:57 --> Hooks Class Initialized
+DEBUG - 2011-12-18 21:21:57 --> Utf8 Class Initialized
+DEBUG - 2011-12-18 21:21:57 --> UTF-8 Support Enabled
+DEBUG - 2011-12-18 21:21:57 --> URI Class Initialized
+DEBUG - 2011-12-18 21:21:57 --> Router Class Initialized
+ERROR - 2011-12-18 21:21:57 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2011-12-18 21:22:00 --> Config Class Initialized
+DEBUG - 2011-12-18 21:22:00 --> Hooks Class Initialized
+DEBUG - 2011-12-18 21:22:00 --> Utf8 Class Initialized
+DEBUG - 2011-12-18 21:22:00 --> UTF-8 Support Enabled
+DEBUG - 2011-12-18 21:22:00 --> URI Class Initialized
+DEBUG - 2011-12-18 21:22:00 --> Router Class Initialized
+DEBUG - 2011-12-18 21:22:00 --> Output Class Initialized
+DEBUG - 2011-12-18 21:22:00 --> Security Class Initialized
+DEBUG - 2011-12-18 21:22:00 --> Input Class Initialized
+DEBUG - 2011-12-18 21:22:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2011-12-18 21:22:00 --> Language Class Initialized
+DEBUG - 2011-12-18 21:22:00 --> Loader Class Initialized
+DEBUG - 2011-12-18 21:22:00 --> Helper loaded: language_helper
+DEBUG - 2011-12-18 21:22:00 --> Helper loaded: inflector_helper
+DEBUG - 2011-12-18 21:22:00 --> Helper loaded: dump_helper
+DEBUG - 2011-12-18 21:22:00 --> Helper loaded: input_helper
+DEBUG - 2011-12-18 21:22:01 --> Helper loaded: dc_helper
+DEBUG - 2011-12-18 21:22:01 --> Helper loaded: form_helper
+DEBUG - 2011-12-18 21:22:01 --> Helper loaded: url_helper
+DEBUG - 2011-12-18 21:22:01 --> Database Driver Class Initialized
+DEBUG - 2011-12-18 21:22:01 --> Config file loaded: ../application/config/template.php
+DEBUG - 2011-12-18 21:22:01 --> Controller Class Initialized
+DEBUG - 2011-12-18 21:22:01 --> Language file loaded: language/russian/default_lang.php
+DEBUG - 2011-12-18 21:22:01 --> Model Class Initialized
+DEBUG - 2011-12-18 21:22:01 --> Model Class Initialized
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:22:01 --> XSS Filtering completed
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:22:01 --> XSS Filtering completed
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:22:01 --> XSS Filtering completed
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:22:01 --> XSS Filtering completed
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:22:01 --> XSS Filtering completed
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:22:01 --> SELECT *
+FROM (`estates` AS t)
+WHERE `rooms` =  '2'
+AND `stars` =  '4'
+LIMIT 30
+ERROR - 2011-12-18 21:22:01 --> Severity: Notice  --> Undefined index: page D:\www\estate\application\controllers\estate.php 66
+DEBUG - 2011-12-18 21:22:01 --> File loaded: ../application/views/estate/ajax_search.php
+DEBUG - 2011-12-18 21:22:01 --> Final output sent to browser
+DEBUG - 2011-12-18 21:22:01 --> Total execution time: 0.7708
+DEBUG - 2011-12-18 21:22:24 --> Config Class Initialized
+DEBUG - 2011-12-18 21:22:24 --> Hooks Class Initialized
+DEBUG - 2011-12-18 21:22:24 --> Utf8 Class Initialized
+DEBUG - 2011-12-18 21:22:24 --> UTF-8 Support Enabled
+DEBUG - 2011-12-18 21:22:24 --> URI Class Initialized
+DEBUG - 2011-12-18 21:22:24 --> Router Class Initialized
+DEBUG - 2011-12-18 21:22:24 --> No URI present. Default controller set.
+DEBUG - 2011-12-18 21:22:24 --> Output Class Initialized
+DEBUG - 2011-12-18 21:22:24 --> Security Class Initialized
+DEBUG - 2011-12-18 21:22:24 --> Input Class Initialized
+DEBUG - 2011-12-18 21:22:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2011-12-18 21:22:24 --> Language Class Initialized
+DEBUG - 2011-12-18 21:22:24 --> Loader Class Initialized
+DEBUG - 2011-12-18 21:22:24 --> Helper loaded: language_helper
+DEBUG - 2011-12-18 21:22:24 --> Helper loaded: inflector_helper
+DEBUG - 2011-12-18 21:22:24 --> Helper loaded: dump_helper
+DEBUG - 2011-12-18 21:22:24 --> Helper loaded: input_helper
+DEBUG - 2011-12-18 21:22:24 --> Helper loaded: dc_helper
+DEBUG - 2011-12-18 21:22:24 --> Helper loaded: form_helper
+DEBUG - 2011-12-18 21:22:24 --> Helper loaded: url_helper
+DEBUG - 2011-12-18 21:22:24 --> Database Driver Class Initialized
+DEBUG - 2011-12-18 21:22:24 --> Config file loaded: ../application/config/template.php
+DEBUG - 2011-12-18 21:22:24 --> Controller Class Initialized
+DEBUG - 2011-12-18 21:22:24 --> Language file loaded: language/russian/default_lang.php
+DEBUG - 2011-12-18 21:22:24 --> Model Class Initialized
+DEBUG - 2011-12-18 21:22:24 --> Model Class Initialized
+DEBUG - 2011-12-18 21:22:24 --> Model Class Initialized
+DEBUG - 2011-12-18 21:22:24 --> Model Class Initialized
+DEBUG - 2011-12-18 21:22:24 --> Model Class Initialized
+DEBUG - 2011-12-18 21:22:24 --> Helper loaded: file_helper
+DEBUG - 2011-12-18 21:22:24 --> SELECT *
+FROM (`types` AS t)
+ORDER BY `type` ASC
+DEBUG - 2011-12-18 21:22:24 --> SELECT *
+FROM (`countries` AS t)
+ORDER BY `country` ASC
+ERROR - 2011-12-18 21:22:24 --> Severity: Notice  --> Undefined index: js D:\www\estate\application\libraries\Template.php 124
+DEBUG - 2011-12-18 21:22:24 --> File loaded: ../application/views/estate/index.php
+DEBUG - 2011-12-18 21:22:24 --> File loaded: ../application/views/layouts/index.php
+DEBUG - 2011-12-18 21:22:24 --> Final output sent to browser
+DEBUG - 2011-12-18 21:22:24 --> Total execution time: 0.4395
+DEBUG - 2011-12-18 21:22:25 --> Config Class Initialized
+DEBUG - 2011-12-18 21:22:25 --> Hooks Class Initialized
+DEBUG - 2011-12-18 21:22:25 --> Utf8 Class Initialized
+DEBUG - 2011-12-18 21:22:25 --> UTF-8 Support Enabled
+DEBUG - 2011-12-18 21:22:25 --> URI Class Initialized
+DEBUG - 2011-12-18 21:22:25 --> Router Class Initialized
+ERROR - 2011-12-18 21:22:25 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2011-12-18 21:22:26 --> Config Class Initialized
+DEBUG - 2011-12-18 21:22:26 --> Hooks Class Initialized
+DEBUG - 2011-12-18 21:22:26 --> Utf8 Class Initialized
+DEBUG - 2011-12-18 21:22:26 --> UTF-8 Support Enabled
+DEBUG - 2011-12-18 21:22:26 --> URI Class Initialized
+DEBUG - 2011-12-18 21:22:26 --> Router Class Initialized
+DEBUG - 2011-12-18 21:22:26 --> Output Class Initialized
+DEBUG - 2011-12-18 21:22:26 --> Security Class Initialized
+DEBUG - 2011-12-18 21:22:26 --> Input Class Initialized
+DEBUG - 2011-12-18 21:22:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2011-12-18 21:22:26 --> Language Class Initialized
+DEBUG - 2011-12-18 21:22:26 --> Loader Class Initialized
+DEBUG - 2011-12-18 21:22:26 --> Helper loaded: language_helper
+DEBUG - 2011-12-18 21:22:26 --> Helper loaded: inflector_helper
+DEBUG - 2011-12-18 21:22:26 --> Helper loaded: dump_helper
+DEBUG - 2011-12-18 21:22:26 --> Helper loaded: input_helper
+DEBUG - 2011-12-18 21:22:26 --> Helper loaded: dc_helper
+DEBUG - 2011-12-18 21:22:26 --> Helper loaded: form_helper
+DEBUG - 2011-12-18 21:22:26 --> Helper loaded: url_helper
+DEBUG - 2011-12-18 21:22:26 --> Database Driver Class Initialized
+DEBUG - 2011-12-18 21:22:27 --> Config file loaded: ../application/config/template.php
+DEBUG - 2011-12-18 21:22:27 --> Controller Class Initialized
+DEBUG - 2011-12-18 21:22:27 --> Language file loaded: language/russian/default_lang.php
+DEBUG - 2011-12-18 21:22:27 --> Model Class Initialized
+DEBUG - 2011-12-18 21:22:27 --> Model Class Initialized
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:22:27 --> XSS Filtering completed
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:22:27 --> XSS Filtering completed
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:22:27 --> XSS Filtering completed
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:22:27 --> XSS Filtering completed
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:22:27 --> XSS Filtering completed
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:22:27 --> SELECT *
+FROM (`estates` AS t)
+WHERE `rooms` =  '2'
+AND `stars` =  '4'
+LIMIT 30
+ERROR - 2011-12-18 21:22:27 --> Severity: Notice  --> Undefined index: page D:\www\estate\application\controllers\estate.php 66
+DEBUG - 2011-12-18 21:22:27 --> File loaded: ../application/views/estate/ajax_search.php
+DEBUG - 2011-12-18 21:22:27 --> Final output sent to browser
+DEBUG - 2011-12-18 21:22:27 --> Total execution time: 0.7872
+DEBUG - 2011-12-18 21:23:23 --> Config Class Initialized
+DEBUG - 2011-12-18 21:23:23 --> Hooks Class Initialized
+DEBUG - 2011-12-18 21:23:23 --> Utf8 Class Initialized
+DEBUG - 2011-12-18 21:23:23 --> UTF-8 Support Enabled
+DEBUG - 2011-12-18 21:23:24 --> URI Class Initialized
+DEBUG - 2011-12-18 21:23:24 --> Router Class Initialized
+DEBUG - 2011-12-18 21:23:24 --> No URI present. Default controller set.
+DEBUG - 2011-12-18 21:23:24 --> Output Class Initialized
+DEBUG - 2011-12-18 21:23:24 --> Security Class Initialized
+DEBUG - 2011-12-18 21:23:24 --> Input Class Initialized
+DEBUG - 2011-12-18 21:23:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2011-12-18 21:23:24 --> Language Class Initialized
+DEBUG - 2011-12-18 21:23:24 --> Loader Class Initialized
+DEBUG - 2011-12-18 21:23:24 --> Helper loaded: language_helper
+DEBUG - 2011-12-18 21:23:24 --> Helper loaded: inflector_helper
+DEBUG - 2011-12-18 21:23:24 --> Helper loaded: dump_helper
+DEBUG - 2011-12-18 21:23:24 --> Helper loaded: input_helper
+DEBUG - 2011-12-18 21:23:24 --> Helper loaded: dc_helper
+DEBUG - 2011-12-18 21:23:24 --> Helper loaded: form_helper
+DEBUG - 2011-12-18 21:23:24 --> Helper loaded: url_helper
+DEBUG - 2011-12-18 21:23:24 --> Database Driver Class Initialized
+DEBUG - 2011-12-18 21:23:24 --> Config file loaded: ../application/config/template.php
+DEBUG - 2011-12-18 21:23:24 --> Controller Class Initialized
+DEBUG - 2011-12-18 21:23:24 --> Language file loaded: language/russian/default_lang.php
+DEBUG - 2011-12-18 21:23:24 --> Model Class Initialized
+DEBUG - 2011-12-18 21:23:24 --> Model Class Initialized
+DEBUG - 2011-12-18 21:23:24 --> Model Class Initialized
+DEBUG - 2011-12-18 21:23:24 --> Model Class Initialized
+DEBUG - 2011-12-18 21:23:24 --> Model Class Initialized
+DEBUG - 2011-12-18 21:23:24 --> Helper loaded: file_helper
+DEBUG - 2011-12-18 21:23:24 --> SELECT *
+FROM (`types` AS t)
+ORDER BY `type` ASC
+DEBUG - 2011-12-18 21:23:24 --> SELECT *
+FROM (`countries` AS t)
+ORDER BY `country` ASC
+ERROR - 2011-12-18 21:23:24 --> Severity: Notice  --> Undefined index: js D:\www\estate\application\libraries\Template.php 124
+DEBUG - 2011-12-18 21:23:24 --> File loaded: ../application/views/estate/index.php
+DEBUG - 2011-12-18 21:23:24 --> File loaded: ../application/views/layouts/index.php
+DEBUG - 2011-12-18 21:23:24 --> Final output sent to browser
+DEBUG - 2011-12-18 21:23:24 --> Total execution time: 0.4812
+DEBUG - 2011-12-18 21:23:25 --> Config Class Initialized
+DEBUG - 2011-12-18 21:23:25 --> Hooks Class Initialized
+DEBUG - 2011-12-18 21:23:25 --> Utf8 Class Initialized
+DEBUG - 2011-12-18 21:23:25 --> UTF-8 Support Enabled
+DEBUG - 2011-12-18 21:23:25 --> URI Class Initialized
+DEBUG - 2011-12-18 21:23:25 --> Router Class Initialized
+ERROR - 2011-12-18 21:23:25 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2011-12-18 21:23:31 --> Config Class Initialized
+DEBUG - 2011-12-18 21:23:31 --> Hooks Class Initialized
+DEBUG - 2011-12-18 21:23:31 --> Utf8 Class Initialized
+DEBUG - 2011-12-18 21:23:31 --> UTF-8 Support Enabled
+DEBUG - 2011-12-18 21:23:31 --> URI Class Initialized
+DEBUG - 2011-12-18 21:23:31 --> Router Class Initialized
+DEBUG - 2011-12-18 21:23:31 --> Output Class Initialized
+DEBUG - 2011-12-18 21:23:32 --> Security Class Initialized
+DEBUG - 2011-12-18 21:23:32 --> Input Class Initialized
+DEBUG - 2011-12-18 21:23:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2011-12-18 21:23:32 --> Language Class Initialized
+DEBUG - 2011-12-18 21:23:32 --> Loader Class Initialized
+DEBUG - 2011-12-18 21:23:32 --> Helper loaded: language_helper
+DEBUG - 2011-12-18 21:23:32 --> Helper loaded: inflector_helper
+DEBUG - 2011-12-18 21:23:32 --> Helper loaded: dump_helper
+DEBUG - 2011-12-18 21:23:32 --> Helper loaded: input_helper
+DEBUG - 2011-12-18 21:23:32 --> Helper loaded: dc_helper
+DEBUG - 2011-12-18 21:23:32 --> Helper loaded: form_helper
+DEBUG - 2011-12-18 21:23:32 --> Helper loaded: url_helper
+DEBUG - 2011-12-18 21:23:32 --> Database Driver Class Initialized
+DEBUG - 2011-12-18 21:23:32 --> Config file loaded: ../application/config/template.php
+DEBUG - 2011-12-18 21:23:32 --> Controller Class Initialized
+DEBUG - 2011-12-18 21:23:32 --> Language file loaded: language/russian/default_lang.php
+DEBUG - 2011-12-18 21:23:32 --> Model Class Initialized
+DEBUG - 2011-12-18 21:23:32 --> Model Class Initialized
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:23:32 --> XSS Filtering completed
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:23:32 --> XSS Filtering completed
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:23:32 --> XSS Filtering completed
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:23:32 --> XSS Filtering completed
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:23:32 --> XSS Filtering completed
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 56
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined offset: 1 D:\www\estate\application\helpers\input_helper.php 22
+DEBUG - 2011-12-18 21:23:32 --> SELECT *
+FROM (`estates` AS t)
+WHERE `rooms` =  '2'
+AND `stars` =  '4'
+LIMIT 30
+ERROR - 2011-12-18 21:23:32 --> Severity: Notice  --> Undefined index: page D:\www\estate\application\controllers\estate.php 66
+DEBUG - 2011-12-18 21:23:32 --> File loaded: ../application/views/estate/ajax_search.php
+DEBUG - 2011-12-18 21:23:32 --> Final output sent to browser
+DEBUG - 2011-12-18 21:23:32 --> Total execution time: 0.8263

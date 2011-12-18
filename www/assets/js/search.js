@@ -5,7 +5,33 @@ $(function() {
 
     $('#select_country').on( 'change', Searcher.on_change_country );
     
-    $('#waypoint').waypoint( Searcher.on_scroll );
+    $('#search_results').scrollPagination({
+        'contentPage': '/search/', // the page where you are searching for results
+        'contentData': $('#search_form').serialize+'&page='+children.size(), // you can pass the children().size() to know where is the pagination
+        'scrollTarget': $(window), // who gonna scroll? in this example, the full window
+        'heightOffset': 10, // how many pixels before reaching end of the page would loading start? positives numbers only please
+        'beforeLoad': function(){ // before load, some function, maybe display a preloader div
+            $('#waypoint').fadeIn();	
+        },
+        'afterLoad': function(elementsLoaded){ // after loading, some function to animate results and hide a preloader div
+             $('#waypoint').fadeOut();
+             var i = 0;
+             $(elementsLoaded).fadeInWithDelay();
+             //if ($('#content').children().size() > 100){ // if more than 100 results loaded stop pagination (only for test)
+              ///  $('#content').stopScrollPagination();
+             //}
+        }
+    });
+
+    // code for fade in element by element with delay
+    $.fn.fadeInWithDelay = function(){
+        var delay = 0;
+        return this.each(function(){
+            $(this).delay(delay).animate({opacity:1}, 200);
+            delay += 100;
+        });
+    };
+        
      
 });
 

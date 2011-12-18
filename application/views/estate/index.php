@@ -88,4 +88,4 @@
 </fieldset>
 
 <div id="search_results"></div>
-<div id="waypoint" class="well">Load more...</div>
+<div id="waypoint" class="well" style="display:none">Load more...</div>
