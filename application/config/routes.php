@@ -41,7 +41,9 @@
 $route['default_controller'] = "estate";
 $route['404_override'] = '';
 
-$route['search']  = 'estate/ajax_search';
+$route['search']      = 'estate/ajax_search';
+$route['cities']      = 'estate/ajax_cities';
+$route['show/(:num)'] = "estate/show/$1";
 
 
 /* End of file routes.php */

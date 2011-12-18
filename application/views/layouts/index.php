@@ -43,8 +43,16 @@
         border: 0;
       }
         a:active, a:focus { outline: none; }
+        #search_results{ min-height: 600px; display: table; }
+        a.fancybox img{
+            /*border: 6px solid #EEE; margin:6px;*/
+            -moz-border-radius: 50%;
+            -webkit-borde-radius: 50;
+            border-radius: 50%;
+        }
 	</style>
-    <?= $js ?>
+    <?= isset($css) ? $css : '' ?>
+    <?= isset($js) ? $js : '' ?>
             
 </head>
 <body>
@@ -52,7 +60,7 @@
 <div class="topbar">
   <div class="fill">
     <div class="container">
-      <a class="brand" href="/">Realestate.Поиск</a>
+      <a class="brand" href="/">.: Realestate</a>
       <!--ul class="nav">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>

@@ -2,7 +2,7 @@
 ?>
 <fieldset id="search">
     <h3>Поиск</h3>
-    <br class="cb" />
+    <div id="info"></div>
     <form id="search_form">
         <div class="well">
             <div class="clearfix">
@@ -25,25 +25,25 @@
                                     <li>
                                         <label for="checkbox_bar">
                                             <?=form_checkbox( 'bar', 1, FALSE, ' id="checkbox_bar"')?>
-                                            <span><?=lang('form_checkbox_bar')?></span>
+                                            <span><?=lang('bar')?></span>
                                         </label>
                                     </li>
                                     <li>
                                         <label for="checkbox_pool">
                                             <?=form_checkbox( 'pool', 1, FALSE, ' id="checkbox_pool"')?>
-                                            <span><?=lang('form_checkbox_pool')?></span>
+                                            <span><?=lang('pool')?></span>
                                         </label>
                                     </li>
                                     <li>
                                         <label for="checkbox_bath">
                                             <?=form_checkbox( 'bath', 1, FALSE, ' id="checkbox_bath"')?>
-                                            <span><?=lang('form_checkbox_bath')?></span>
+                                            <span><?=lang('bath')?></span>
                                         </label>
                                     </li>
                                     <li>
                                         <label for="checkbox_shower">
                                             <?=form_checkbox( 'shower', 1, FALSE, ' id="checkbox_shower"')?>
-                                            <?=lang('form_checkbox_shower')?>
+                                            <?=lang('shower')?>
                                         </label>
                                     </li>
                                 </ul>
@@ -55,25 +55,25 @@
                                     <li>
                                         <label for="checkbox_cctv">
                                             <?=form_checkbox( 'cctv', 1, FALSE, ' id="checkbox_cctv"')?>
-                                            <span><?=lang('form_checkbox_cctv')?></span>
+                                            <span><?=lang('cctv')?></span>
                                         </label>
                                     </li>
                                     <li>
                                         <label for="checkbox_internet">
                                             <?=form_checkbox( 'internet', 1, FALSE, ' id="checkbox_internet"')?>
-                                            <span><?=lang('form_checkbox_internet')?></span>
+                                            <span><?=lang('internet')?></span>
                                         </label>
                                     </li>
                                     <li>
                                         <label for="checkbox_tv">
                                             <?=form_checkbox( 'tv', 1, FALSE, ' id="checkbox_tv"')?>
-                                            <span><?=lang('form_checkbox_tv')?></span>
+                                            <span><?=lang('tv')?></span>
                                         </label>
                                     </li>
                                     <li>
                                         <label for="checkbox_parking">
                                             <?=form_checkbox( 'parking', 1, FALSE, ' id="checkbox_parking"')?>
-                                            <?=lang('form_checkbox_parking')?>
+                                            <?=lang('parking')?>
                                         </label>
                                     </li>
                                 </ul>
@@ -88,4 +88,5 @@
 </fieldset>
 
 <div id="search_results"></div>
-<div id="waypoint" class="well" style="display:none">Load more...</div>
+
+<div id="waypoint" class="well" style="display:none">Loading more...</div>

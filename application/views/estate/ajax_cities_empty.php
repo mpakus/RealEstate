@@ -1,0 +1,1 @@
+<option value="0"><?=lang('select_all')?></option>

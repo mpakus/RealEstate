@@ -7,18 +7,27 @@ $lang['form_select_stars']    = 'Звёзд:';
 
 $lang['form_btn_search']      = 'Найти';
 
-$lang['form_checkbox_bar']    = 'Бар:';
-$lang['form_checkbox_pool']   = 'Бассейн:';
-$lang['form_checkbox_bath']   = 'Ванная:';
-$lang['form_checkbox_shower'] = 'Душ:';
+$lang['bar']    = 'Бар';
+$lang['pool']   = 'Бассейн';
+$lang['bath']   = 'Ванная';
+$lang['shower'] = 'Душ';
 
-$lang['form_checkbox_cctv']     = 'Видеонаблюдение:';
-$lang['form_checkbox_internet'] = 'Интернет:';
-$lang['form_checkbox_tv']       = 'Кабельное ТВ:';
-$lang['form_checkbox_parking']  = 'Парковка:';
+$lang['cctv']     = 'Видеонаблюдение';
+$lang['internet'] = 'Интернет';
+$lang['tv']       = 'Кабельное ТВ';
+$lang['parking']  = 'Парковка';
 
 $lang['msg_tbl_title'] = 'Название';
 $lang['msg_tbl_description'] = 'Описание';
 $lang['msg_tbl_rooms'] = 'Комнат';
 $lang['msg_tbl_stars'] = 'Звёзд';
 
+$lang['err_no_cities'] = 'Произошла ошибка, мы не нашли города для этой страны';
+
+$lang['room']     = 'комната';
+$lang['two_room'] = 'комнаты';
+$lang['rooms']    = 'комнат';
+
+$lang['star']      = 'звезда';
+$lang['two_stars'] = 'звезды';
+$lang['stars']     = 'звезды';
