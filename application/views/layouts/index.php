@@ -42,8 +42,7 @@
       .topbar .btn {
         border: 0;
       }
-      .cb{ clear: both; overflow: hidden; }
-      div3{ border: 1px solid red; }
+        a:active, a:focus { outline: none; }
 	</style>
     <?= $js ?>
             

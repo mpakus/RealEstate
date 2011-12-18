@@ -17,7 +17,7 @@ class EstateController extends MY_Controller {
     
     public function __construct(){
         parent::__construct();
-        $this->output->enable_profiler( TRUE );
+        //$this->output->enable_profiler( TRUE );
         #$this->type->type = $this->type;
     }
     
@@ -36,6 +36,7 @@ class EstateController extends MY_Controller {
         $this->template->set( 'stars', $this->estate->stars_list() );
         // add JS script to layout
         $this->template->add_js( '/assets/js/search.js' );
+        $this->template->add_js( '/assets/js/waypoints.min.js' );
                 
         // render template and show layout
         $this->template->render_to( 'content', $this->view.'index' )->show();
@@ -47,15 +48,25 @@ class EstateController extends MY_Controller {
     public function ajax_search(){
         // @todo: delete in production
         error_reporting( E_ALL ^ E_NOTICE );
-        $this->load->model( array('estate') );
         $this->output->enable_profiler( FALSE );
         
+        $data = array();        
+        $this->load->model( array('estate') );
+        
         $params = params( array(
-            'coutry', 'city', 'type', 'rooms', 'stars', 'bar', 'pool', 'bath', 'shower',
+            'country', 'city', 'type', 'rooms', 'stars', 'bar', 'pool', 'bath', 'shower',
             'cctv', 'internet', 'tv', 'parking'
         ));
-        $result = $this->estate->search( $params );
-        dump( $result );
+        $data['results'] = $this->estate->search( $params );
+        if( empty($data['results']) ){
+            $response['status'] = 'info';
+            $response['html']   = lang('msg_no_data');
+        }else{
+            $response['status'] = 'ok';
+            $response['page']   = $params['page'];
+            $response['html']   = $this->template->render( $this->view.'ajax_search', $data );
+        }
+        echo json_encode( $response );
     }
     
     /**

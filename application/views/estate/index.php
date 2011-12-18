@@ -86,3 +86,6 @@
         </div> <!-- / well -->
     </form>
 </fieldset>
+
+<div id="search_results"></div>
+<div id="waypoint" class="well">Load more...</div>

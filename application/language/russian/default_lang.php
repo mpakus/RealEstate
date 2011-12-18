@@ -16,3 +16,9 @@ $lang['form_checkbox_cctv']     = 'Видеонаблюдение:';
 $lang['form_checkbox_internet'] = 'Интернет:';
 $lang['form_checkbox_tv']       = 'Кабельное ТВ:';
 $lang['form_checkbox_parking']  = 'Парковка:';
+
+$lang['msg_tbl_title'] = 'Название';
+$lang['msg_tbl_description'] = 'Описание';
+$lang['msg_tbl_rooms'] = 'Комнат';
+$lang['msg_tbl_stars'] = 'Звёзд';
+

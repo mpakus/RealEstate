@@ -64,7 +64,7 @@ $autoload['libraries'] = array( 'database', 'template' );
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array( 'language', 'inflector', 'dump', 'input', 'dc', 'form' );
+$autoload['helper'] = array( 'language', 'inflector', 'dump', 'input', 'dc', 'form', 'url' );
 
 
 /*

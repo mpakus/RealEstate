@@ -9,9 +9,10 @@
  * @property string $table 
  * @property Type   $type
  */
-class Estate extends MY_Controller{
+class Estate extends MY_Model{
     protected
-        $table = 'estates'
+        $table = 'estates',
+        $limit = 30
      ;
     
     
@@ -63,7 +64,27 @@ class Estate extends MY_Controller{
     }
     
     public function search( $params=array() ){
+        // relations
+        if( !empty($params['type']) ) $this->db->where( 'type_id', $params['type'] );
+        if( !empty($params['city']) ) $this->db->where( 'city_id', $params['city'] );
+                
+        // equals
+        if( !empty($params['rooms']) ) $this->db->where( 'rooms', $params['rooms'] );
+        if( !empty($params['stars']) ) $this->db->where( 'stars', $params['stars'] );
         
+        // flags
+        if( !empty($params['bar']) )      $this->db->where( 'bar', 1 );
+        if( !empty($params['pool']) )     $this->db->where( 'pool', 1 );
+        if( !empty($params['bath']) )     $this->db->where( 'bath', 1 );
+        if( !empty($params['shower']) )   $this->db->where( 'shower', 1 );
+        if( !empty($params['cctv']) )     $this->db->where( 'cctv', 1 );
+        if( !empty($params['internet']) ) $this->db->where( 'intertnet', 1 );
+        if( !empty($params['tv']) )       $this->db->where( 'tv', 1 );
+        if( !empty($params['parking']) )  $this->db->where( 'parking', 1 );
+        
+        $page = isset($params['page']) ? $params['page'] * $this->limit : 0;
+        
+        return $this->find( NULL, $this->limit, $page );
     }
     
 }
