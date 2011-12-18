@@ -1,0 +1,39 @@
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
+
+/**
+ * Helper for debug
+ *
+ * @version 1.0
+ * @author Ibragimov "MpaK" Renat <info@mrak7.com>
+ * @copyright Copyright (c) 2009-2012, AOmega, http://aomega.ru
+ */
+function TextDump( &$Var, $Level=0 ) {
+		$out = '';
+        if(is_array($Var)) $Type="Array[".count($Var)."]";
+        else if(is_object($Var)) $Type="Object";
+        else $Type="";
+        if($Type) {
+                $out .= "$Type\n";
+                for(Reset($Var),$Level++; list($k,$v)=each($Var);) {
+                        if(is_array($v) && $k==="GLOBALS") continue;
+                        for($i=0; $i<$Level*3; $i++) $out .= " ";
+                        $out .= "<b>".HtmlSpecialChars($k)."</b> => " . TextDump($v,$Level);
+                }
+        } else {
+        	$out .= '"' . HtmlSpecialChars($Var) . '"'."\n";
+        }
+        return $out;
+}
+
+function Dump( &$Var, $need_return = FALSE ) {
+	$out = '';
+	if((is_array($Var)||is_object($Var)) && count($Var)){
+        $out .= "<pre>\n" . TextDump( $Var ) . "</pre>\n";
+ 	}else{
+        $out .= "<tt>" . TextDump($Var) . "</tt>\n";
+  	}
+
+  	if($need_return) return $out;
+
+  	echo $out;
+}
